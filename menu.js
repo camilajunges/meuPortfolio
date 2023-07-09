@@ -7,7 +7,7 @@ function selectLink(){
 }
 
 menuItem.forEach((item)=>
-    item.addEventListener('click', selectLink);
+    item.addEventListener('click', selectLink)
 )
 
 // vai expandir o menu
